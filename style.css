@@ -134,3 +134,218 @@ ul {
   font-weight: none;
   margin-left: 70px;
 }
+/* Popular Game section */
+
+.Popular-para {
+  padding-left: 5%;
+  padding-top: 5%;
+  padding-bottom: 2%;
+  text-align: center;
+}
+.popgame {
+  display: flex;
+  margin-left: 15%;
+}
+.card {
+  width: 230px;
+  height: 230px;
+
+  padding: 10px 20px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px;
+  background-position: center;
+  background-size: cover;
+  color: gainsboro;
+  font-weight: bold;
+  padding-top: 140px;
+  line-height: 1px;
+  margin-bottom: 10%;
+}
+.card1 {
+  background-image: url(./Assets/Photos/image\ 2.png);
+}
+.card2 {
+  background-image: url(./Assets/Photos/image\ 4.png);
+}
+.card3 {
+  background-image: url(./Assets/Photos/image\ 3.png);
+}
+.card4 {
+  background-image: url(./Assets/Photos/Rectangle\ 56.png);
+}
+.card p {
+  font-size: 10px;
+  color: gray;
+}
+.btndownload {
+  background-color: #f4694c;
+  color: gainsboro;
+  font: 10px "Fira Sans", sans-serif;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 120px;
+  display: flexbox;
+  margin-top: -24px;
+  margin-right: 25px;
+}
+.card:hover {
+  transform: scale(1.09);
+}
+/* war game section */
+.war-game {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 7%;
+}
+.left-img img {
+  height: 250px;
+  width: 400px;
+  padding-left: 55%;
+}
+.right-img {
+  padding-right: 15%;
+}
+.right-img h2 {
+  line-height: 10px;
+}
+.right-img h6 {
+  color: gray;
+  font-size: 10px;
+  font-weight: bold;
+}
+.war-button1 {
+  background-color: tomato;
+  padding: 10px;
+  border: none;
+  color: white;
+}
+.war-button2 {
+  background-color: transparent;
+  color: tomato;
+  padding: 10px;
+  border: 1px solid tomato;
+  margin-left: 5px;
+}
+.Recommend-heading {
+  display: flex;
+  justify-content: space-between;
+}
+.Recommend-heading h2 {
+  line-height: 10px;
+  margin-left: 220px;
+  font-weight: bolder;
+}
+.Recommend-heading img {
+  gap: 10px;
+}
+.Recommend-heading .leftarrow {
+  background-color: #fde1db;
+  height: 25px;
+  width: 30px;
+  padding: 10px;
+  margin-left: 390px;
+}
+.Recommend-heading .nextArrow {
+  background-color: tomato;
+  height: 25px;
+  width: 30px;
+  padding: 10px;
+  margin-right: 290px;
+}
+/* Game recommend section */
+/* .recommend-container {
+  display: flex;
+   gap: 32px;
+   flex-wrap: wrap; 
+  padding: 10%; 
+}
+.recommend-container img {
+  height: 250px;
+  width: min-content;
+}
+.recom-card {
+  display: flex;
+  gap: 32px;
+  width: 20%;
+  min-width: 500px;
+  cursor: pointer;
+}
+.recommend-para {
+  display: flex;
+  flex-direction: column;
+  float: right;
+  line-height: 15px;
+}
+.mid-text {
+  color: tomato;
+  font-size: small;
+  font-weight: bold;
+}
+.recommend-container h6 {
+  font: 12px "Fira Sans", sans-serif;
+  font-weight: 900;
+}
+.recbtn {
+  background-color: tomato;
+  border: none;
+  padding: 10px;
+  color: white;
+  margin-left: 10px;
+} */
+.recommend-container {
+  padding: 5%;
+  margin-left: 120px;
+}
+.recommend-container img {
+  height: 250px;
+  width: min-content;
+}
+.recommend-para {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  float: right;
+  gap: 30px;
+}
+.recommend-para h6 {
+  color: gray;
+  margin-bottom: 10px;
+  margin-top: -15px;
+  margin-left: 36px;
+}
+.mid-text {
+  font-size: small;
+  color: tomato;
+  font-weight: bold;
+}
+.recommend-para h3 {
+  line-height: 7px;
+}
+.recbtn {
+  background-color: tomato;
+  border: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  color: gainsboro;
+  width: 100px;
+  margin-left: 250px;
+  text-align: center;
+}
+.recom-card {
+  display: inline-block;
+  width: 20%;
+  min-width: 500px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  padding: 20px;
+}
+.recbtn:hover {
+  background-color: chocolate;
+  transform: scale(1.09);
+  transition: all 0.5s;
+}
+.recommend-container img:hover {
+  transform: scale(1.09);
+}
